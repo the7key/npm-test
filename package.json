@@ -4,8 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the7key/npm-test.git"
   },
   "author": "the7keyy <the7keyy@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the7key/npm-test/issues"
+  },
+  "homepage": "https://github.com/the7key/npm-test#readme",
+  "devDependencies": {
+    "chance": "^1.1.9",
+    "rewire": "^6.0.0",
+    "sinon": "^15.0.1"
+  }
 }
